@@ -1,0 +1,60 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: white;
+}
+
+.bg {
+    width: cover;
+    opacity: .3;
+    position: fixed;
+    z-index: -1;
+}
+
+h1, h2, h3 {
+    font-family: "Carter One", sans-serif;
+}
+
+h2 {
+    color: #3046c5;
+}
+
+header h2 {
+    color: #cec8ff;
+}
+
+.site-footer {
+    background-image: linear-gradient(#cec8ff, white);
+    padding: 20px 0;
+}
+
+.jumbotron {
+    padding: 30px;
+    background-image: linear-gradient(to right, #5637dd, #3046c5, #60106b);
+    color: white;
+    margin: 0;
+}
+
+.none, .none:link, .none:visited  {
+    color: white;
+    text-decoration: none;
+}
+
+.none:hover {
+    color: aqua;
+    opacity: .3;
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+.navbar {
+    background-image: linear-gradient(to right, #3d23b3e5, #1931b8da, #490952e3);
+}
+
+.img-thumbnail {
+    background-image: linear-gradient(to right, #3d23b3b7, #1931b8a9, #4a0952af);
+    border: none;
+}
