@@ -55,8 +55,10 @@ header h2 {
 }
 
 .img-thumbnail {
-    background-image: linear-gradient(to right, #3d23b3b7, #1931b8a9, #4a0952af);
+    background-image: linear-gradient(to right, #3d23b370, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6), #4a09526b)
+    ;
     border: none;
+    background-color: transparent;
 }
 
 a, a:hover {
@@ -69,9 +71,28 @@ a, a:hover {
 }
 
 .carousel {
-    border: solid #3d23b3b7;
+    padding: 0.25rem;
+    background-color: transparent;
+    border-radius: 0.25rem;
+    max-width: 100%;
+    background-image: linear-gradient(to right, #3d23b370, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6), #4a09526b);
+
 }
 
-.text-black {
-    color: black;
+.btn-primary, .btn-info, .card-header {
+    background-color: rgba(0, 0, 0, 0.6);
+    border: none;
+}
+
+.btn:hover {
+    background-image: linear-gradient(to right, #06a4ff60, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6), #d619cd73);
+    background-color: transparent;
+    color: white;
+}
+
+.card {
+    background-image: linear-gradient(to right, #3d23b3e5, #1931b8da, #490952e3);
+    background-color: transparent;
+    color:whitesmoke;
+
 }
